@@ -19,10 +19,10 @@ function HelloWorldPage() {
     <html lang="en">
       <head>
         <meta charSet="utf-8" />
-        <title>Hello world</title>
+        <title>OpenLink test website for Noryev</title>
       </head>
       <body>
-        <h1>Hello world</h1>
+        <h1>Whats up</h1>
       </body>
     </html>
   );

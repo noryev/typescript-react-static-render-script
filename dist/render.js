@@ -39,7 +39,7 @@ function HelloWorldPage() {
     return (react_1["default"].createElement("html", { lang: "en" },
         react_1["default"].createElement("head", null,
             react_1["default"].createElement("meta", { charSet: "utf-8" }),
-            react_1["default"].createElement("title", null, "Hello world")),
+            react_1["default"].createElement("title", null, "OpenLink test website for Noryev")),
         react_1["default"].createElement("body", null,
-            react_1["default"].createElement("h1", null, "Hello world"))));
+            react_1["default"].createElement("h1", null, "Whats up"))));
 }
