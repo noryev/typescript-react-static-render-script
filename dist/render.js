@@ -28,14 +28,14 @@ var react_1 = __importDefault(require("react"));
 var server_1 = __importDefault(require("react-dom/server"));
 render();
 function render() {
-    var html = server_1["default"].renderToStaticMarkup(react_1["default"].createElement(HelloWorldPage, null));
+    var html = server_1["default"].renderToStaticMarkup(react_1["default"].createElement(OpenLinksPage, null));
     var htmlWDoc = "<!DOCTYPE html>" + html;
     var prettyHtml = prettier_1["default"].format(htmlWDoc, { parser: "html" });
     var outputFile = "./output.html";
     fs.writeFileSync(outputFile, prettyHtml);
     console.log("Wrote " + outputFile);
 }
-function HelloWorldPage() {
+function OpenLinksPage() {
     return (react_1["default"].createElement("html", { lang: "en" },
         react_1["default"].createElement("head", null,
             react_1["default"].createElement("meta", { charSet: "utf-8" }),

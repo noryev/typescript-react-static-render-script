@@ -6,7 +6,7 @@ import ReactDOMServer from "react-dom/server";
 render();
 
 function render() {
-  let html = ReactDOMServer.renderToStaticMarkup(<HelloWorldPage />);
+  let html = ReactDOMServer.renderToStaticMarkup(<OpenLinksPage />);
   let htmlWDoc = "<!DOCTYPE html>" + html;
   let prettyHtml = prettier.format(htmlWDoc, { parser: "html" });
   let outputFile = "./output.html";
@@ -14,7 +14,7 @@ function render() {
   console.log(`Wrote ${outputFile}`);
 }
 
-function HelloWorldPage() {
+function OpenLinksPage() {
   return (
     <html lang="en">
       <head>
@@ -22,7 +22,7 @@ function HelloWorldPage() {
         <title>OpenLink test website for Noryev</title>
       </head>
       <body>
-        <h1>Whats up</h1>
+        <h1>Whats up Logan</h1>
       </body>
     </html>
   );
